@@ -33,18 +33,19 @@ if __name__ == '__main__':
   # TODO: set these parameters correctly
   #
 
-  my_private_key = CBitcoinSecret(
-      'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+  my_private_key = CBitcoinSecret.from_secret_bytes(
+      x('5891578bf2d34207990d947b959d84763bfb7b242c254301da3f8ab612088186'))
 
   my_public_key = my_private_key.pub
   my_address = P2PKHBitcoinAddress.from_pubkey(my_public_key)
 
-  amount_to_send = None  # amount of BTC in the output you're splitting minus fee
+  # amount of BTC in the output you're splitting minus fee
+  amount_to_send = 0.01 - 0.0001
   txid_to_spend = (
-      'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
+      'fb730ab712f8725eae29342bdac336f353747aefb960d437e63181c48c4f2685')
   utxo_index = 0
   n = 10  # number of outputs to split the input into
-  network = 'btc-test3'  # either 'btc-test3' or 'bcy-test'
+  network = 'bcy-test'  # either 'btc-test3' or 'bcy-test'
 
   #
   #
