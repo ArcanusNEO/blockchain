@@ -1,7 +1,7 @@
 import requests
 
 from bitcoin.core import b2x, lx, COIN, COutPoint, CMutableTxOut, CMutableTxIn, CMutableTransaction, Hash160
-from bitcoin.core.script import CScript, SignatureHash, SIGHASH_ALL
+from bitcoin.core.script import *
 from bitcoin.core.scripteval import VerifyScript, SCRIPT_VERIFY_P2SH
 
 
