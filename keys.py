@@ -34,12 +34,12 @@ bob_secret_key_BTC = CBitcoinSecret(
 
 # Only to be imported by alice.py
 alice_secret_key_BCY = CBitcoinSecret.from_secret_bytes(
-    x('67ebe6c3e5068c2bef50f603ef9f7df89d78386063047707da30029fa5be4255'))
+    x('7be8d4f70b1659e49a24ccabefe56641777769f164808d72057173ffa469b4fa'))
 
 # Only to be imported by bob.py
 # Bob should have coins!!
 bob_secret_key_BCY = CBitcoinSecret.from_secret_bytes(
-    x('74c9c181da57df1f30cf72d90948d3059d1e869ab9ab3328742685399049f4cb'))
+    x('5891578bf2d34207990d947b959d84763bfb7b242c254301da3f8ab612088186'))
 
 # Can be imported by alice.py or bob.py
 alice_public_key_BTC = alice_secret_key_BTC.pub
