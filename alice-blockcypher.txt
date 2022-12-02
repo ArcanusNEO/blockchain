@@ -1,0 +1,6 @@
+{
+  "private": "7be8d4f70b1659e49a24ccabefe56641777769f164808d72057173ffa469b4fa",
+  "public": "02e859ef47119b9773d45b502587b97845d6186c69d2411bb1a6426d2b5fb652a6",
+  "address": "C28XYuonaNKWh5nFEgnZG4vCnyqKzppSgV",
+  "wif": "BsUtqrmKXpNGx7oNR8vuVDPhu4qn3U5n8fAAMZ3KgoEKhRz7RJ8k"
+}
